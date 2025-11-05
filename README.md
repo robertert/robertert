@@ -1,3 +1,91 @@
-* [Link do forka](https://github.com/robertert/MotionDirector)
-* [Repozytorium bazowe](https://github.com/showlab/MotionDirector)
-* [Link do artykułu](https://paperswithcode.com/paper/motiondirector-motion-customization-of-text)
+# 👋 Cześć! Jestem Robert
+
+🎯 **Freelance Full Stack Developer**  
+💻 Student kierunku **Informatyka i Systemy Inteligentne** na **AGH** (3. rok)  
+📍 Kraków, Polska  
+
+---
+
+## 🚀 O mnie
+
+Jestem pasjonatem tworzenia nowoczesnych aplikacji webowych i mobilnych — od koncepcji po wdrożenie.  
+Łączę **frontend (React, React Native, TypeScript)** z **backendem (Node.js, Firebase)** i rozwiązaniami **IoT** opartymi o **Raspberry Pi** i **Python**.  
+Uwielbiam projekty, w których mogę połączyć **inżynierię, UX i automatyzację**, a przy tym tworzyć produkty, które naprawdę coś zmieniają.
+
+Aktualnie szukam **stażu lub pierwszej pracy jako Junior / Full Stack / Frontend / Mobile Developer**.
+
+---
+
+## 🧩 Technologie i narzędzia
+
+**Frontend / Mobile:** React, React Native (Expo), TypeScript, Vite, MUI, i18next  
+**Backend:** Node.js, Express, Firebase (Firestore, Functions, Auth, Storage), SQLite  
+**Inne:** Python, Raspberry Pi (I²C, GPIO), Electron, Bash, Expo EAS  
+**Dev Tools:** Git, Docker, VS Code, Linux, Notion, Figma  
+
+---
+
+## 🌟 Wybrane projekty
+
+### 🧠 [Memvocado](https://github.com/robertert/memvocado)
+> Aplikacja mobilna wspierająca naukę z wykorzystaniem fiszek i algorytmu SRS (Spaced Repetition System).  
+**Tech:** React Native (Expo), Firebase  
+**Status:** projekt hobbystyczny  
+**Cel:** nauka efektywnego uczenia się i motywacji przez gamifikację.
+
+---
+
+### 🥊 CardioBoxer Desktop
+> Aplikacja treningowa z integracją sprzętową (IoT) — sterowanie padami bokserskimi, system rankingów, tryb kiosk i offline.  
+**Tech:** Electron, React, Vite, MUI, SQLite, Python, Bash  
+**Zakres:** architektura, komunikacja I²C, OTA update, wielojęzyczny UI (8 języków)  
+**Status:** projekt komercyjny
+
+---
+
+### 📱 BoxerCardio Mobile
+> Aplikacja społecznościowo-treningowa z trybami, rankingami, osiągnięciami, znajomymi i notyfikacjami push.  
+**Tech:** React Native (Expo), Firebase (Functions, Firestore, Auth), i18next, React Query  
+**Zakres:** architektura, backend (Node.js/Firebase), UI/UX, powiadomienia, tryb offline  
+**Status:** projekt komercyjny
+
+---
+
+### ✉️ Email2SMS
+> System automatycznego przekierowywania wiadomości e-mail na SMS z przetwarzaniem w tle i natywną wysyłką z telefonu.  
+**Tech:** React Native (Expo Router), Firebase, TypeScript, Kotlin bridge (SMS), IMAP  
+**Zakres:** architektura, queue management, dead-letter queue, foreground/background service  
+**Status:** projekt komercyjny
+
+---
+
+### 💬 Pseudo
+> Kompilator własnego języka programowania stworzony w ramach projektu studenckiego.  
+**Zakres:** parser, lexer, AST, własna składnia i semantyka  
+**Tech:** Python  
+**Status:** projekt akademicki
+
+---
+
+### ✈️ AirportTaxiSimulation
+> Symulacja płyty lotniska wykonana w MESA (Python) — modelowanie ruchu pojazdów i samolotów.  
+**Status:** projekt akademicki  
+
+---
+
+### ⚽ Football Manager (.NET)
+> Aplikacja webowa w ASP.NET Core MVC do zarządzania piłkarzami, drużynami i meczami z panelem administracyjnym.  
+**Status:** projekt studencki  
+
+---
+
+## 🎯 Cele na najbliższy czas
+- Pogłębianie wiedzy z **AI i uczenia maszynowego**  
+- Doskonalenie **React Native** i **TypeScript**  
+- Rozwijanie **projektów open-source** i automatyzacji z Raspberry Pi  
+
+---
+
+## 📫 Kontakt
+- 💼 [LinkedIn](https://www.linkedin.com/in/tu-wstaw-swoj-link)  
+- ✉️ [Email](mailto:twoj.email@example.com)
