@@ -1,8 +1,15 @@
-# 👋 Cześć! Jestem Robert
+<!-- Baner z Twoim imieniem -->
+<h1 align="center">👋 Cześć! Jestem Robert</h1>
+<h3 align="center">Freelance Full Stack Developer | Student AGH | React • React Native • Node.js • Python</h3>
 
-🎯 **Freelance Full Stack Developer**  
-💻 Student kierunku **Informatyka i Systemy Inteligentne** na **AGH** (3. rok)  
-📍 Kraków, Polska  
+<p align="center">
+  <a href="https://www.linkedin.com/in/robert-jacak-303270332/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:jacakrobert33@gmail.com">
+    <img src="https://img.shields.io/badge/Email-jacakrobert33%40gmail.com-red?style=flat&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
@@ -18,10 +25,17 @@ Aktualnie szukam **stażu lub pracy jako Junior / Full Stack / Frontend / Mobile
 
 ## 🧩 Technologie i narzędzia
 
-**Frontend / Mobile:** React, React Native (Expo), TypeScript, Vite, MUI, i18next  
-**Backend:** Node.js, Express, Firebase (Firestore, Functions, Auth, Storage), SQLite, SQL  
-**Inne:** Python, Raspberry Pi (I²C, GPIO), Electron, Bash, Expo EAS
-**Dev Tools:** Git, Docker, VS Code, Linux, Notion, Figma  
+### 🖥️ Frontend / Mobile  
+React · React Native (Expo) · TypeScript · Vite · MUI · i18next  
+
+### ⚙️ Backend  
+Node.js · Express · Firebase (Firestore, Functions, Auth, Storage) · SQLite · SQL  
+
+### 🔌 Inne  
+Python · Raspberry Pi (I²C, GPIO) · Electron · Bash · Expo EAS  
+
+### 🧰 Dev Tools  
+Git · Docker · VS Code · Linux · Notion · Figma  
 
 ---
 
@@ -79,6 +93,16 @@ Aktualnie szukam **stażu lub pracy jako Junior / Full Stack / Frontend / Mobile
 
 ---
 
+## 📊 Statystyki GitHub
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=robertert&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
 ## 📫 Kontakt
-- 💼 [LinkedIn]([https://www.linkedin.com/in/robert-jacak-303270332/])  
-- ✉️ [Email](mailto:jacakrobert33@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/robert-jacak-303270332/)  
+✉️ [Email](mailto:jacakrobert33@gmail.com)
+
+---
