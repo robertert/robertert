@@ -27,7 +27,7 @@ Aktualnie szukam **stażu lub pracy jako Junior / Full Stack / Frontend / Mobile
 
 ## 🌟 Wybrane projekty
 
-### 🧠 [Memvocado](https://github.com/robertert/memvocadoapp)(
+### 🧠 [Memvocado](https://github.com/robertert/memvonadoapp)
 > Aplikacja mobilna wspierająca naukę z wykorzystaniem fiszek i algorytmu SRS (Spaced Repetition System).  
 **Tech:** React Native (Expo), Firebase  
 **Status:** projekt hobbystyczny  
