@@ -12,22 +12,22 @@ Jestem pasjonatem tworzenia nowoczesnych aplikacji webowych i mobilnych — od k
 Łączę **frontend (React, React Native, TypeScript)** z **backendem (Node.js, Firebase)** i rozwiązaniami **IoT** opartymi o **Raspberry Pi** i **Python**.  
 Uwielbiam projekty, w których mogę połączyć **inżynierię, UX i automatyzację**, a przy tym tworzyć produkty, które naprawdę coś zmieniają.
 
-Aktualnie szukam **stażu lub pierwszej pracy jako Junior / Full Stack / Frontend / Mobile Developer**.
+Aktualnie szukam **stażu lub pracy jako Junior / Full Stack / Frontend / Mobile Developer**.
 
 ---
 
 ## 🧩 Technologie i narzędzia
 
 **Frontend / Mobile:** React, React Native (Expo), TypeScript, Vite, MUI, i18next  
-**Backend:** Node.js, Express, Firebase (Firestore, Functions, Auth, Storage), SQLite  
-**Inne:** Python, Raspberry Pi (I²C, GPIO), Electron, Bash, Expo EAS  
+**Backend:** Node.js, Express, Firebase (Firestore, Functions, Auth, Storage), SQLite, SQL  
+**Inne:** Python, Raspberry Pi (I²C, GPIO), Electron, Bash, Expo EAS
 **Dev Tools:** Git, Docker, VS Code, Linux, Notion, Figma  
 
 ---
 
 ## 🌟 Wybrane projekty
 
-### 🧠 [Memvocado](https://github.com/robertert/memvocado)
+### 🧠 [Memvocado](https://github.com/robertert/memvocadoapp)
 > Aplikacja mobilna wspierająca naukę z wykorzystaniem fiszek i algorytmu SRS (Spaced Repetition System).  
 **Tech:** React Native (Expo), Firebase  
 **Status:** projekt hobbystyczny  
@@ -59,7 +59,7 @@ Aktualnie szukam **stażu lub pierwszej pracy jako Junior / Full Stack / Fronten
 
 ---
 
-### 💬 Pseudo
+### 💬 [Pseudo](https://github.com/MaciejJamrozy/projectPseudo)
 > Kompilator własnego języka programowania stworzony w ramach projektu studenckiego.  
 **Zakres:** parser, lexer, AST, własna składnia i semantyka  
 **Tech:** Python  
@@ -67,25 +67,18 @@ Aktualnie szukam **stażu lub pierwszej pracy jako Junior / Full Stack / Fronten
 
 ---
 
-### ✈️ AirportTaxiSimulation
+### ✈️ [AirportTaxiSimulation](https://github.com/robertert/AirportTaxiSimulation)
 > Symulacja płyty lotniska wykonana w MESA (Python) — modelowanie ruchu pojazdów i samolotów.  
 **Status:** projekt akademicki  
 
 ---
 
-### ⚽ Football Manager (.NET)
+### ⚽ [Football Manager (.NET)](https://github.com/robertert/PZ2Project)
 > Aplikacja webowa w ASP.NET Core MVC do zarządzania piłkarzami, drużynami i meczami z panelem administracyjnym.  
 **Status:** projekt studencki  
 
 ---
 
-## 🎯 Cele na najbliższy czas
-- Pogłębianie wiedzy z **AI i uczenia maszynowego**  
-- Doskonalenie **React Native** i **TypeScript**  
-- Rozwijanie **projektów open-source** i automatyzacji z Raspberry Pi  
-
----
-
 ## 📫 Kontakt
-- 💼 [LinkedIn](https://www.linkedin.com/in/tu-wstaw-swoj-link)  
-- ✉️ [Email](mailto:twoj.email@example.com)
+- 💼 [LinkedIn]([https://www.linkedin.com/in/robert-jacak-303270332/])  
+- ✉️ [Email](mailto:jacakrobert33@gmail.com)
