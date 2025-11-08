@@ -25,17 +25,33 @@ Aktualnie szukam **stażu lub pracy jako Junior / Full Stack / Frontend / Mobile
 
 ## 🧩 Technologie i narzędzia
 
-### 🖥️ Frontend / Mobile  
-React · React Native (Expo) · TypeScript · Vite · MUI · i18next  
+🖥️ Frontend / Mobile
 
-### ⚙️ Backend  
-Node.js · Express · Firebase (Firestore, Functions, Auth, Storage) · SQLite · SQL  
+React · React Native (Expo) · TypeScript · JavaScript (ES6+) · HTML · CSS · Vite · MUI · i18next
 
-### 🔌 Inne  
-Python · Raspberry Pi (I²C, GPIO) · Electron · Bash · Expo EAS  
+⚙️ Backend
 
-### 🧰 Dev Tools  
-Git · Docker · VS Code · Linux · Notion · Figma  
+Node.js · Express · ASP.NET Core · Django · Flask · Spring Boot · Firebase (Firestore, Functions, Auth, Storage) · REST API · GraphQL · WebSockets
+
+🗄️ Databases
+
+PostgreSQL · SQLite · MongoDB · Firestore
+
+🧠 Data & AI
+
+Python (NumPy · Pandas · scikit-learn · TensorFlow · Keras · OpenCV)
+
+☁️ Cloud / DevOps
+
+Google Cloud · Firebase · Docker · GitHub Actions
+
+🧩 Electronics / Systems
+
+Raspberry Pi (I²C, GPIO) · Bash · Linux · Electron
+
+🧰 Dev Tools
+
+Git · VS Code · Notion · Figma
 
 ---
 
