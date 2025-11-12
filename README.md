@@ -1,115 +1,102 @@
-<!-- Baner z Twoim imieniem -->
-<h1 align="center">👋 Cześć! Jestem Robert</h1>
-<h3 align="center">Freelance Full Stack Developer | Student AGH | React • React Native • Node.js • Python</h3>
+# 👋 Hi, I'm Robert
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/robert-jacak-303270332/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:jacakrobert33@gmail.com">
-    <img src="https://img.shields.io/badge/Email-jacakrobert33%40gmail.com-red?style=flat&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+🎯 **Freelance Full Stack Developer | AGH University Student | React • React Native • Node.js • Python**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robert-jacak-303270332/)
+[![Email](https://img.shields.io/badge/Email-jacakrobert33%40gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:jacakrobert33@gmail.com)
 
 ---
 
-## 🚀 O mnie
+## 🚀 About Me
 
-Jestem pasjonatem tworzenia nowoczesnych aplikacji webowych i mobilnych — od koncepcji po wdrożenie.  
-Łączę **frontend (React, React Native, TypeScript)** z **backendem (Node.js, Firebase)** i rozwiązaniami **IoT** opartymi o **Raspberry Pi** i **Python**.  
-Uwielbiam projekty, w których mogę połączyć **inżynierię, UX i automatyzację**, a przy tym tworzyć produkty, które naprawdę coś zmieniają.
+I'm passionate about building modern **web and mobile applications** — from concept to deployment.  
+I combine **frontend development (React, React Native, TypeScript)** with **backend systems (Node.js, Firebase)** and **IoT integrations** using **Raspberry Pi and Python**.  
 
-Aktualnie szukam **stażu lub pracy jako Junior / Full Stack / Frontend / Mobile Developer**.
+I love projects that merge **engineering, UX, and automation**, creating products that truly make an impact.  
+Currently seeking **an internship or a junior position as a Full Stack / Frontend / Mobile Developer**.
 
 ---
 
-## 🧩 Technologie i narzędzia
+## 🧩 Technologies & Tools
 
-🖥️ Frontend / Mobile
-
+### 🖥️ Frontend / Mobile
 React · React Native (Expo) · TypeScript · JavaScript (ES6+) · HTML · CSS · Vite · MUI · i18next
 
-⚙️ Backend
-
+### ⚙️ Backend
 Node.js · Express · ASP.NET Core · Django · Flask · Spring Boot · Firebase (Firestore, Functions, Auth, Storage) · REST API · GraphQL · WebSockets
 
-🗄️ Databases
-
+### 🗄️ Databases
 PostgreSQL · SQLite · MongoDB · Firestore
 
-🧠 Data & AI
-
+### 🧠 Data & AI
 Python (NumPy · Pandas · scikit-learn · TensorFlow · Keras · OpenCV)
 
-☁️ Cloud / DevOps
-
+### ☁️ Cloud / DevOps
 Google Cloud · Firebase · Docker · GitHub Actions
 
-🧩 Electronics / Systems
-
+### 🧩 Electronics / Systems
 Raspberry Pi (I²C, GPIO) · Bash · Linux · Electron
 
-🧰 Dev Tools
-
+### 🧰 Dev Tools
 Git · VS Code · Notion · Figma
 
 ---
 
-## 🌟 Wybrane projekty
+## 🌟 Featured Projects
 
 ### 🧠 [Memvocado](https://github.com/robertert/memvonadoapp)
-> Aplikacja mobilna wspierająca naukę z wykorzystaniem fiszek i algorytmu SRS (Spaced Repetition System).  
+A mobile learning app using flashcards and the Spaced Repetition System (SRS).  
 **Tech:** React Native (Expo), Firebase  
-**Status:** projekt hobbystyczny  
-**Cel:** nauka efektywnego uczenia się i motywacji przez gamifikację.
+**Goal:** Enhance learning efficiency and motivation through gamification.  
+**Status:** Hobby project
 
 ---
 
 ### 🥊 CardioBoxer Desktop
-> Aplikacja treningowa z integracją sprzętową (IoT) — sterowanie padami bokserskimi, system rankingów, tryb kiosk i offline.  
+Training application with IoT hardware integration — punching pads control, ranking system, kiosk and offline modes.  
 **Tech:** Electron, React, Vite, MUI, SQLite, Python, Bash  
-**Zakres:** architektura, komunikacja I²C, OTA update, wielojęzyczny UI (8 języków)  
-**Status:** projekt komercyjny
+**Scope:** Architecture, I²C communication, OTA updates, multilingual UI (8 languages)  
+**Status:** Commercial project
 
 ---
 
 ### 📱 BoxerCardio Mobile
-> Aplikacja społecznościowo-treningowa z trybami, rankingami, osiągnięciami, znajomymi i notyfikacjami push.  
+Community training app with modes, rankings, achievements, friends, and push notifications.  
 **Tech:** React Native (Expo), Firebase (Functions, Firestore, Auth), i18next, React Query  
-**Zakres:** architektura, backend (Node.js/Firebase), UI/UX, powiadomienia, tryb offline  
-**Status:** projekt komercyjny
+**Scope:** Architecture, backend (Node.js/Firebase), UI/UX, notifications, offline mode  
+**Status:** Commercial project
 
 ---
 
 ### ✉️ Email2SMS
-> System automatycznego przekierowywania wiadomości e-mail na SMS z przetwarzaniem w tle i natywną wysyłką z telefonu.  
+Automated system for forwarding emails to SMS with background processing and native Android SMS sending.  
 **Tech:** React Native (Expo Router), Firebase, TypeScript, Kotlin bridge (SMS), IMAP  
-**Zakres:** architektura, queue management, dead-letter queue, foreground/background service  
-**Status:** projekt komercyjny
+**Scope:** Architecture, queue management, dead-letter queue, foreground/background services  
+**Status:** Commercial project
 
 ---
 
 ### 💬 [Pseudo](https://github.com/MaciejJamrozy/projectPseudo)
-> Kompilator własnego języka programowania stworzony w ramach projektu studenckiego.  
-**Zakres:** parser, lexer, AST, własna składnia i semantyka  
+A custom programming language compiler built as a student project.  
+**Scope:** Parser, lexer, AST, syntax & semantics  
 **Tech:** Python  
-**Status:** projekt akademicki
+**Status:** Academic project
 
 ---
 
 ### ✈️ [AirportTaxiSimulation](https://github.com/robertert/AirportTaxiSimulation)
-> Symulacja płyty lotniska wykonana w MESA (Python) — modelowanie ruchu pojazdów i samolotów.  
-**Status:** projekt akademicki  
+Airport apron simulation built with MESA (Python) — modeling aircraft and vehicle movements.  
+**Status:** Academic project
 
 ---
 
 ### ⚽ [Football Manager (.NET)](https://github.com/robertert/PZ2Project)
-> Aplikacja webowa w ASP.NET Core MVC do zarządzania piłkarzami, drużynami i meczami z panelem administracyjnym.  
-**Status:** projekt studencki  
+ASP.NET Core MVC web app for managing players, teams, and matches with an admin panel.  
+**Status:** Student project
 
 ---
 
-## 📊 Statystyki GitHub
+## 📊 GitHub Stats
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=robertert&layout=compact&theme=tokyonight&hide_border=true"/>
@@ -117,7 +104,8 @@ Git · VS Code · Notion · Figma
 
 ---
 
-## 📫 Kontakt
+## 📫 Contact
+
 💼 [LinkedIn](https://www.linkedin.com/in/robert-jacak-303270332/)  
 ✉️ [Email](mailto:jacakrobert33@gmail.com)
 
