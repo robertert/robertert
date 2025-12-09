@@ -85,6 +85,22 @@ Status: Recruitment project
 
 ---
 
+### 🌱 [Flora Sense](https://github.com/robertert/FloraSense)
+
+Intelligent plant monitoring system with a mobile robot — automated watering, environmental parameter monitoring, and remote control.
+
+**Tech:** ESP-IDF (ESP32), FreeRTOS, MQTT, WiFi, BLE, I²C, ADC, PWM
+
+**Scope:** 
+- Embedded system architecture with multithreading (FreeRTOS tasks)
+- Sensor integration: soil moisture (ADC), light (VEML7700), temperature/humidity (BME280), pressure (BMP280), Hall, IR obstacle, proximity, MPU6050
+- Communication: MQTT (data publishing, command subscription), WiFi, BLE (client/server), HTTP client
+- Control: DC motors (TB6612FNG driver), water pump (MOSFET), docking system
+- Protocols: I²C, ADC, PWM, GPIO
+
+**Status:** Academic project
+
+---
 
 ### 💬 [Pseudo](https://github.com/MaciejJamrozy/projectPseudo)
 A custom programming language compiler built as a student project.  
