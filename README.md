@@ -76,6 +76,16 @@ Automated system for forwarding emails to SMS with background processing and nat
 
 ---
 
+### 🎥 [TWGProjekt](https://github.com/robertert/TWGRecrutimentProject)
+
+A mobile learning app built for a TWG recruitment task. Enables browsing, searching, and watching educational YouTube videos, enriched with timestamped notes and personalized learning reminders.
+Tech: React Native (Expo), Expo Router, TypeScript, Zustand, TanStack Query, react-native-video, FlashList, Zod
+Scope: Architecture, YouTube Data API integration, custom video player, infinite scrolling, note-taking system, notifications, file-based routing
+Status: Recruitment project
+
+---
+
+
 ### 💬 [Pseudo](https://github.com/MaciejJamrozy/projectPseudo)
 A custom programming language compiler built as a student project.  
 **Scope:** Parser, lexer, AST, syntax & semantics  
@@ -94,13 +104,6 @@ Airport apron simulation built with MESA (Python) — modeling aircraft and vehi
 ASP.NET Core MVC web app for managing players, teams, and matches with an admin panel.  
 **Status:** Student project
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=robertert&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
 
 ---
 
