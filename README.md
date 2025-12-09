@@ -79,9 +79,9 @@ Automated system for forwarding emails to SMS with background processing and nat
 ### 🎥 [TWGProjekt](https://github.com/robertert/TWGRecrutimentProject)
 
 A mobile learning app built for a TWG recruitment task. Enables browsing, searching, and watching educational YouTube videos, enriched with timestamped notes and personalized learning reminders.
-Tech: React Native (Expo), Expo Router, TypeScript, Zustand, TanStack Query, react-native-video, FlashList, Zod
-Scope: Architecture, YouTube Data API integration, custom video player, infinite scrolling, note-taking system, notifications, file-based routing
-Status: Recruitment project
+**Tech:** React Native (Expo), Expo Router, TypeScript, Zustand, TanStack Query, react-native-video, FlashList, Zod
+**Scope:** Architecture, YouTube Data API integration, custom video player, infinite scrolling, note-taking system, notifications, file-based routing
+**Status:** Recruitment project
 
 ---
 
@@ -90,14 +90,12 @@ Status: Recruitment project
 Intelligent plant monitoring system with a mobile robot — automated watering, environmental parameter monitoring, and remote control.
 
 **Tech:** ESP-IDF (ESP32), FreeRTOS, MQTT, WiFi, BLE, I²C, ADC, PWM
-
 **Scope:** 
 - Embedded system architecture with multithreading (FreeRTOS tasks)
 - Sensor integration: soil moisture (ADC), light (VEML7700), temperature/humidity (BME280), pressure (BMP280), Hall, IR obstacle, proximity, MPU6050
 - Communication: MQTT (data publishing, command subscription), WiFi, BLE (client/server), HTTP client
 - Control: DC motors (TB6612FNG driver), water pump (MOSFET), docking system
 - Protocols: I²C, ADC, PWM, GPIO
-
 **Status:** Academic project
 
 ---
