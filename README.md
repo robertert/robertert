@@ -23,10 +23,10 @@ Currently seeking **an internship or a junior position as a Full Stack / Fronten
 React · React Native (Expo) · TypeScript · JavaScript (ES6+) · HTML · CSS · Vite · MUI · i18next
 
 ### ⚙️ Backend
-Node.js · Express · ASP.NET Core · Django · Flask · Spring Boot · Firebase (Firestore, Functions, Auth, Storage) · REST API · GraphQL · WebSockets
+Node.js · Express · FastAPI ·  Django · Flask · Spring Boot · Firebase (Firestore, Functions, Auth, Storage) · REST API · GraphQL · WebSockets
 
-### 🗄️ Databases
-PostgreSQL · SQLite · MongoDB · Firestore
+### 🗄️ Databases/ORM
+PostgreSQL · SQLite · MongoDB · Firestore · SQLAlchemy
 
 ### 🧠 Data & AI
 Python (NumPy · Pandas · scikit-learn · TensorFlow · Keras · OpenCV)
@@ -98,6 +98,27 @@ Intelligent plant monitoring system with a mobile robot — automated watering, 
 * Protocols: I²C, ADC, PWM, GPIO
 
 **Status:** Academic project  
+
+---
+
+### 🍃 [FloraSenseSerwer](https://github.com/robertert/FloraSenseServer)
+
+IoT device management backend for smart plant care system with real-time MQTT communication and background data processing.
+
+**Tech:** FastAPI, Python, MQTT (paho-mqtt), SQLAlchemy, SQLite, JWT (PyJWT), Alembic, Pydantic, Threading
+**Scope:** RESTful API, MQTT pub/sub architecture, singleton MQTT client pattern, background worker for sensor data ingestion, device pairing and ownership management, real-time command publishing, sensor measurements storage, alarm system, device configuration management, automatic device discovery
+**Status:** Academic project
+
+---
+
+### ☘️ [FloraSenseApp](https://github.com/pknot212121/FloraApp)
+
+IoT plant care device management system with real-time monitoring, automated alarms, and remote control capabilities.
+
+**Tech:** React Native (Expo Router), TypeScript, Zustand, Expo Notifications, Axios, MQTT, REST API
+**Scope:** Device pairing and management, environmental measurements monitoring (temperature, humidity, soil moisture, light), threshold-based alarm system with push notifications, device configuration (sensor intervals, thresholds, automation settings), remote control (movement, watering), background alarm polling, state management with Zustand stores, secure authentication with JWT tokens
+**Status:** Commercial project
+
 
 ---
 
