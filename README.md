@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Robert
 
-🎯 **Freelance Full Stack Developer | AGH University Student | React • React Native • Node.js • Python**
+🎯 ** Full Stack Developer | AGH University Student | React • React Native • Node.js • Python**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robert-jacak-303270332/)
 [![Email](https://img.shields.io/badge/Email-jacakrobert33%40gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:jacakrobert33@gmail.com)
