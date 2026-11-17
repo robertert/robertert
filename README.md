@@ -15,9 +15,9 @@
 
 ## About me
 
-- 📊 **Frontend Developer at Black Label**, a data visualization software house. I build interactive dashboards and map-based tools in React, TypeScript and Highcharts, plus the Python and Node.js services behind them. [↓](#black-label)
-- 🥊 **Developer of CardioBoxer**, a commercial fleet of boxing fitness machines running embedded Linux, with remote OTA updates and monitoring. [↓](#cardioboxer)
-- 🌱 **Building an autonomous solar-powered robot** as my engineering thesis at AGH University of Krakow (Computer Science and Intelligent Systems, graduating 01.2027). [↓](#flora)
+- 📊 **Frontend Developer at Black Label**, a data visualization software house. I build interactive dashboards and map-based tools in React, TypeScript and Highcharts, plus the Python and Node.js services behind them.
+- 🥊 **Developer of CardioBoxer**, a commercial fleet of boxing fitness machines running embedded Linux, with remote OTA updates and monitoring.
+- 🌱 **Building an autonomous solar-powered robot** as my engineering thesis at AGH University of Krakow (Computer Science and Intelligent Systems, graduating 01.2027).
 
 ---
 
@@ -34,7 +34,6 @@
 
 ## Featured projects
 
-<a name="cardioboxer"></a>
 ### 🥊 [CardioBoxer](https://cardio-boxer.com) ![Commercial](https://img.shields.io/badge/COMMERCIAL-FF6F00?style=flat-square)
 
 A commercial boxing fitness machine: the player hits light-up punch pads in timed training modes, and results go to live leaderboards in a mobile app. I build the whole software side of the machine and the tooling that keeps the fleet running. Live on 20+ machines, built in a two-person team.
@@ -44,9 +43,9 @@ A commercial boxing fitness machine: the player hits light-up punch pads in time
 <details>
 <summary>Click to see demo</summary>
 <br>
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/908d1657-d2fc-4705-932b-653c498e306b" width="50%" alt="CardioBoxer Demo" />
-</div>
+
+https://github.com/user-attachments/assets/908d1657-d2fc-4705-932b-653c498e306b
+
 <br>
 </details>
 
@@ -71,7 +70,6 @@ A commercial boxing fitness machine: the player hits light-up punch pads in time
 
 ---
 
-<a name="flora"></a>
 ### 🌱 [Flora](https://github.com/robertert/FloraV2) ![Thesis](https://img.shields.io/badge/ENGINEERING_THESIS-2E7D32?style=flat-square)
 
 An autonomous solar-powered plant pot on wheels: it drives across a lawn following the sun, measures soil and weather conditions, and waters its plant by itself. My engineering thesis at AGH, with the firmware, electronics and body all designed by me. Work in progress, defense in 01.2027.
@@ -108,15 +106,16 @@ The earlier version of the robot: an ESP32 light-following robot that docks with
 
 [Robot firmware](https://github.com/robertert/FloraSense) | [Dock firmware](https://github.com/robertert/FloraSense/tree/station) | [Server](https://github.com/robertert/FloraSenseServer) | [Web dashboard](https://github.com/robertert/FloraWeb)
 
-| Hardware demo | Mobile | Mobile | Mobile | Mobile |
-| :---: | :---: | :---: | :---: | :---: |
-| ![Demo](https://github.com/user-attachments/assets/c4a06b6d-79cb-47eb-972c-2267190cce1c) | ![1](https://github.com/user-attachments/assets/0f903328-6b59-484a-a540-8934efe2b4dd) | ![2](https://github.com/user-attachments/assets/e67cbf81-6ab8-4262-95c7-52313d7657d5) | ![3](https://github.com/user-attachments/assets/54eda29a-ea65-4271-ac84-b4a845015f78) | ![4](https://github.com/user-attachments/assets/a6da4ee9-a2a3-4c30-8c8b-dde3d68ff972) |
+https://github.com/user-attachments/assets/c4a06b6d-79cb-47eb-972c-2267190cce1c
+
+| Mobile | Mobile | Mobile | Mobile |
+| :---: | :---: | :---: | :---: |
+| ![1](https://github.com/user-attachments/assets/0f903328-6b59-484a-a540-8934efe2b4dd) | ![2](https://github.com/user-attachments/assets/e67cbf81-6ab8-4262-95c7-52313d7657d5) | ![3](https://github.com/user-attachments/assets/54eda29a-ea65-4271-ac84-b4a845015f78) | ![4](https://github.com/user-attachments/assets/a6da4ee9-a2a3-4c30-8c8b-dde3d68ff972) |
 
 </details>
 
 ---
 
-<a name="black-label"></a>
 ### 📊 Data visualization at [Black Label](https://blacklabel.net/) ![Commercial](https://img.shields.io/badge/COMMERCIAL-FF6F00?style=flat-square)
 
 Client-facing dashboards and tools built with React, TypeScript and Highcharts. The code is private, but some highlights:
@@ -137,9 +136,9 @@ A flashcard app that pairs the FSRS spaced-repetition algorithm with gamificatio
 <details>
 <summary>Click to see demo</summary>
 <br>
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/71df2e98-890c-4d01-827a-c2f8049677d1" width="50%" alt="Memvocado Demo" />
-</div>
+
+https://github.com/user-attachments/assets/71df2e98-890c-4d01-827a-c2f8049677d1
+
 <br>
 </details>
 
