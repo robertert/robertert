@@ -15,9 +15,9 @@
 
 ## About me
 
-- 📊 **Frontend Developer at [Black Label](https://blacklabel.net/)**, a data visualization software house. I build interactive dashboards and map-based tools in React, TypeScript and Highcharts, plus the Python and Node.js services behind them.
-- 🥊 **Developer of CardioBoxer**, a commercial fleet of boxing fitness machines running embedded Linux, with remote OTA updates and monitoring.
-- 🌱 **Building an autonomous solar-powered robot** as my engineering thesis at AGH University of Krakow (Computer Science and Intelligent Systems, graduating 01.2027).
+- 📊 **Frontend Developer at Black Label**, a data visualization software house. I build interactive dashboards and map-based tools in React, TypeScript and Highcharts, plus the Python and Node.js services behind them. [↓](#black-label)
+- 🥊 **Developer of CardioBoxer**, a commercial fleet of boxing fitness machines running embedded Linux, with remote OTA updates and monitoring. [↓](#cardioboxer)
+- 🌱 **Building an autonomous solar-powered robot** as my engineering thesis at AGH University of Krakow (Computer Science and Intelligent Systems, graduating 01.2027). [↓](#flora)
 
 ---
 
@@ -34,9 +34,12 @@
 
 ## Featured projects
 
-### 🥊 CardioBoxer ![Commercial](https://img.shields.io/badge/COMMERCIAL-FF6F00?style=flat-square)
+<a name="cardioboxer"></a>
+### 🥊 [CardioBoxer](https://cardio-boxer.com) ![Commercial](https://img.shields.io/badge/COMMERCIAL-FF6F00?style=flat-square)
 
-A complete hardware-software platform for boxing fitness machines, live on 20+ machines. Built in a two-person team.
+A commercial boxing fitness machine: the player hits light-up punch pads in timed training modes, and results go to live leaderboards in a mobile app. I build the whole software side of the machine and the tooling that keeps the fleet running. Live on 20+ machines, built in a two-person team.
+
+🌐 [cardio-boxer.com](https://cardio-boxer.com)
 
 <details>
 <summary>Click to see demo</summary>
@@ -47,25 +50,55 @@ A complete hardware-software platform for boxing fitness machines, live on 20+ m
 <br>
 </details>
 
-- **Kiosk software:** an Electron + React app on embedded Linux, with Python system services that read punch pads over I²C or UART and drive LEDs and audio.
-- **Fleet management:** signed OTA updates with automatic rollback, remote access, and centralized logs and metrics with automated anomaly detection.
-- **Cloud:** Supabase backend shared with a mobile app, with live leaderboards and Stripe subscriptions for machine operators.
+**On the machine (embedded Linux)**
+- **Kiosk app:** Electron + React UI with several training modes, running in kiosk mode and working offline with a local SQLite store that syncs to the cloud.
+- **Hardware services:** separate Python systemd services for the punch pads, audio and Wi-Fi, talking to the UI over Unix sockets, so the app itself runs without root rights.
+- **Two hardware variants:** pads read either through I²C port expanders or a UART controller, detected automatically, with debouncing and recovery from bus errors.
+- **Packaging:** shipped as a `.deb` package that installs and upgrades all services, with two release lines for two machine types.
 
-**Tech:** `Electron` `React` `Python` `Linux` `SQLite` `Supabase` `Stripe`
+**Running the fleet remotely**
+- **OTA updates:** signed releases from GitHub Actions; a guard service watches each new version and rolls back automatically if it does not come up healthy.
+- **Remote access:** every machine is reachable over Tailscale, with a fallback that recovers access when it drops.
+- **Observability:** Vector ships system logs, host metrics, temperature, Wi-Fi and power data to Loki and VictoriaMetrics; crashes go to GlitchTip.
+- **Log agent:** an hourly pipeline groups every log line into patterns and flags new errors, sudden spikes, regressions between versions and silent services. Each finding is triaged by an LLM, checked against the code, and filed as a GitHub issue, with a daily report.
+- **Testing:** release scenarios run in a virtual machine lab in CI before they reach real machines.
+
+**Cloud**
+- Supabase (PostgreSQL with row-level security, Edge Functions) shared by the machines, the mobile app and an admin panel.
+- Stripe subscriptions for machine operators and secure provisioning of new machines.
+
+**Tech:** `Electron` `React` `Python` `Linux` `systemd` `SQLite` `Supabase` `Stripe` `Tailscale` `Grafana Loki` `GitHub Actions`
 
 ---
 
+<a name="flora"></a>
 ### 🌱 [Flora](https://github.com/robertert/FloraV2) ![Thesis](https://img.shields.io/badge/ENGINEERING_THESIS-2E7D32?style=flat-square)
 
-An autonomous solar-powered robot that drives across a lawn following the sun, monitors soil and weather, and waters its plant.
+An autonomous solar-powered plant pot on wheels: it drives across a lawn following the sun, measures soil and weather conditions, and waters its plant by itself. My engineering thesis at AGH, with the firmware, electronics and body all designed by me. Work in progress, defense in 01.2027.
 
-- **Firmware:** written in C for two ESP32-S3 units (drive base and sensor mast) linked over UART.
-- **Navigation:** wheel odometry, IMU and compass fused in a Kalman filter, with PID drive control and sonar obstacle detection.
-- **Connectivity:** OTA updates and telemetry over MQTT to a Grafana dashboard, plus a web panel for remote control.
-- **Hardware:** my own PCBs (KiCad) and 3D-printed body.
-- **Quality:** core algorithms are unit-tested on a PC and run in CI.
+**Firmware (C, ESP-IDF, FreeRTOS)**
+- **Two units:** an ESP32-S3 in the base (drive, power, watering) and one in the mast head (sensors, camera, compass), linked over UART with a shared message contract.
+- **Drivers:** around 30 own components: motor driver, wheel encoders, IMU, current and voltage monitoring, temperature, humidity, light and soil sensors, sonar, pump, camera.
+- **Navigation:** wheel odometry, IMU and compass fused in a Kalman filter, a sun-position model to steer towards light, PID drive control and sonar obstacle detection.
+- **Calibration:** on-robot compass and sensor calibration commands, stored in flash and applied at boot.
 
-**Tech:** `C` `ESP-IDF` `FreeRTOS` `ESP32-S3` `MQTT` `KiCad` `Docker`
+**Connectivity and remote operation**
+- Telemetry and commands over MQTT with TLS; the robot falls back through several brokers (remote server, then the laptop on the local network) so it never needs a cable to recover.
+- OTA updates for both units, firmware versions from git tags, and remote settings saved to flash.
+- Remote diagnostics: boot reason (crash, watchdog, brownout), boot counter and error logs that are kept while offline and sent after reconnecting.
+- A web control panel for live driving with a dead-man stop: the robot halts if commands stop arriving.
+
+**Server and tools**
+- Self-hosted Docker stack: MQTT broker with TLS, Telegraf, InfluxDB and Grafana for history, HTTPS through Caddy.
+- Python tools for recording runs and plotting sensor data.
+
+**Hardware**
+- Own PCBs designed in KiCad and soldered by hand; 3D-printed body and mast.
+
+**Quality**
+- Core algorithms (navigation, heading, message parsing) unit-tested on a PC with sanitizers, in CI next to firmware builds for both units.
+
+**Tech:** `C` `ESP-IDF` `FreeRTOS` `ESP32-S3` `MQTT` `KiCad` `Docker` `Grafana` `Python`
 
 <details>
 <summary>First generation: FloraSense</summary>
@@ -83,7 +116,8 @@ The earlier version of the robot: an ESP32 light-following robot that docks with
 
 ---
 
-### 📊 Data visualization at Black Label ![Commercial](https://img.shields.io/badge/COMMERCIAL-FF6F00?style=flat-square)
+<a name="black-label"></a>
+### 📊 Data visualization at [Black Label](https://blacklabel.net/) ![Commercial](https://img.shields.io/badge/COMMERCIAL-FF6F00?style=flat-square)
 
 Client-facing dashboards and tools built with React, TypeScript and Highcharts. The code is private, but some highlights:
 
